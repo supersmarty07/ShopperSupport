@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import Description from "./Body/Description/Description";
+import ImageHolder from "./Body/ImageFunction/ImageHolder";
+import Header from "./Header/Header";
+import Search from "./Body/ImageFunction/Search";
 
+const idItem = [];
 function App() {
+  const [articleId, setArticleId] = useState(idItem);
+  const setItemId = (propsReceived) => {
+    setArticleId(() => {
+      return [propsReceived.id];
+    });
+    //console.log(articleId);
+    //const passingId = idItem[0];
+    //console.log(passingId);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Search setId={setItemId} />
+      <ImageHolder id={articleId} />
+
+      <Description />
     </div>
   );
 }

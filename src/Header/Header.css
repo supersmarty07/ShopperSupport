@@ -1,0 +1,55 @@
+.center {
+  text-align: center;
+
+  font-family: "Fresh Sans Medium", Helvetica, Arial, sans-serif;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
+@font-face {
+  font-family: "Fresh Sans Medium";
+  font-display: swap;
+  src: url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.woff2)
+      format("woff2"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.woff)
+      format("woff"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.eot),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.ttf)
+      format("truetype"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Medium_1_350_web.svg#svgFontName)
+      format("svg");
+}
+
+@font-face {
+  font-family: "Fresh Sans Regular";
+  font-display: swap;
+  src: url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.woff2)
+      format("woff2"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.woff)
+      format("woff"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.eot),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.ttf)
+      format("truetype"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Regular_1_350_web.svg#svgFontName)
+      format("svg");
+}
+
+@font-face {
+  font-family: "Fresh Sans Bold";
+  font-display: swap;
+  src: url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.woff2)
+      format("woff2"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.woff)
+      format("woff"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.eot),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.ttf)
+      format("truetype"),
+    url(https://cdn0.woolworths.media/wowssr/browser/assets/fonts/fresh-sans/FreshSans-Bold_1_350_web.svg#svgFontName)
+      format("svg");
+}

@@ -1,0 +1,28 @@
+.search {
+  height: 2.75em;
+  font-size: 16px;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  justify-content: center;
+}
+.button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: green;
+  color: white;
+  size: large;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: block;
+  font-family: "Fresh Sans Medium", Helvetica, Arial, sans-serif;
+}
+
+.try {
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+}

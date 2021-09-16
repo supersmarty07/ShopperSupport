@@ -1,0 +1,6 @@
+#image {
+  max-width: stretch;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
