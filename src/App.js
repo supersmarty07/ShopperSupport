@@ -5,23 +5,23 @@ import ImageHolder from "./Body/ImageFunction/ImageHolder";
 import Header from "./Header/Header";
 import Search from "./Body/ImageFunction/Search";
 
-const idItem = [];
+const idItem = [0];
 function App() {
   const [articleId, setArticleId] = useState(idItem);
   const setItemId = (propsReceived) => {
     setArticleId(() => {
       return [propsReceived.id];
     });
-    //console.log(articleId);
-    //const passingId = idItem[0];
-    //console.log(passingId);
   };
+  let valuesId = Object.values(articleId);
+  let result = parseInt(valuesId[0].valueOf());
+
   return (
     <div>
       <Header />
       <Search setId={setItemId} />
-      <ImageHolder id={articleId} />
-      <Detail id={articleId} />
+      <ImageHolder id={result} />
+      <Detail id={result} />
     </div>
   );
 }

@@ -23,10 +23,12 @@ function Search(props) {
         <input
           className="search"
           type="number"
+          min="0"
+          max="10"
           inputMode="numeric"
           pattern="[0-9]*"
           id="itemID"
-          placeholder="Enter Article ID"
+          placeholder="Enter Article ID (0 to 10)"
           value={itemId}
           onChange={idChangeHandler}
         />
