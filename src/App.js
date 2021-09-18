@@ -4,6 +4,7 @@ import Detail from "./Body/Description/Detail";
 import ImageHolder from "./Body/ImageFunction/ImageHolder";
 import Header from "./Header/Header";
 import Search from "./Body/ImageFunction/Search";
+import Footer from "./Header/Footer";
 
 const idItem = [0];
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Search setId={setItemId} />
       <ImageHolder id={result} />
       <Detail id={result} />
+      <Footer />
     </div>
   );
 }
