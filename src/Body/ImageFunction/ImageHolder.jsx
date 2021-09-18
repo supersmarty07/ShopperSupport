@@ -5,7 +5,6 @@ function ImageHolder(props) {
   let valuesId = Object.values(props);
   let result = parseInt(valuesId[0].valueOf());
   const imageSite = `https://robohash.org/${result}`;
-  console.log(imageSite);
 
   return (
     <div className="imageHolder">

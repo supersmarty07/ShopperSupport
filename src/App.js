@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
-import Description from "./Body/Description/Description";
+import Detail from "./Body/Description/Detail";
 import ImageHolder from "./Body/ImageFunction/ImageHolder";
 import Header from "./Header/Header";
 import Search from "./Body/ImageFunction/Search";
@@ -21,8 +21,7 @@ function App() {
       <Header />
       <Search setId={setItemId} />
       <ImageHolder id={articleId} />
-
-      <Description />
+      <Detail id={articleId} />
     </div>
   );
 }
