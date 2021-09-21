@@ -9,7 +9,7 @@ function Footer() {
         || Testing with Cypress & Deployed on Netlify
         <br />
         <a
-          href="https://github.com/supersmarty07/OnlineShopperSupport"
+          href="https://github.com/supersmarty07/ShopperSupport"
           target="_blank"
         >
           Go to Code
